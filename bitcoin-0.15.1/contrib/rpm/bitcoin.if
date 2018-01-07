@@ -50,7 +50,7 @@ interface(`bitcoin_initrc_domtrans',`
 ##	Domain allowed access.
 ##	</summary>
 ## </param>
-#
+##########
 interface(`bitcoin_search_lib',`
 	gen_require(`
 		type bitcoin_var_lib_t;
@@ -154,4 +154,3 @@ interface(`bitcoin_admin',`
 	admin_pattern($1, bitcoin_var_lib_t)
 
 ')
-
